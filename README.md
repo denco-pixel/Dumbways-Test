@@ -1,2 +1,2 @@
 # Dumbways-Test
-Digunakan utuk keperluan Dumbways test
+Digunakan untuk keperluan Dumbways test
