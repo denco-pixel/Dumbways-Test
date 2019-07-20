@@ -1,0 +1,170 @@
+<html>
+<head>
+    <title>No. 1 - Dumbways test</title>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <style>
+        .page {
+            margin-top: 20px;
+            padding: 24px;
+        }
+
+        .mb-30 {
+            margin-bottom: 30px;
+        }
+
+        .mt-30 {
+            margin-top: 30px;
+        }
+
+        select {
+            max-width: 250px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <div class="container">
+            <div class="row mb-30">
+                <div class="col-6">
+                    <label class="form-label">
+                        Nama Lengkap
+                    </label>
+                    <input type="text" class="form-control" name="namalengkap" value="" />
+                </div>
+            </div>
+
+            <div class="row mb-30">
+                <div class="col-12">
+                    <label class="form-label">
+                        Tempat Lahir
+                    </label>
+                    <select class="form-control" name="tempat_lahir">
+                        <option value="Majalengka">Majalengka</option>
+                        <option value="Indramayu">Indramayu</option>
+                        <option value="Cirebon">Cirebon</option>
+
+                    </select>
+                </div>
+            </div>
+
+            <div class="row mb-30">
+                <div class="col-3">
+                    <label class="form-label">
+                        Tanggal Lahir
+                    </label>
+                    <input type="text" class="form-control" placeholder="mmmm dd,yyyy" name="tanggal_lahir" />
+                </div>
+            </div>
+
+            <div class="row mb-30">
+                <div class="col-3">
+                    <label class="form-label">
+                        No. HP
+                    </label>
+                    <input type="text" class="form-control" />
+                </div>
+            </div>
+
+
+            <div class="row mb-30">
+                <div class="col-12">
+                    <label class="form-label">
+                        Alamat
+                    </label>
+                    <textarea type="text" class="form-control" name="alamat" style="height: 125px;"></textarea>
+                </div>
+            </div>
+
+
+            <div class="row mb-30">
+                <div class="col-12">
+                    <label class="form-label">
+                        Pendidikan Terakhir
+                    </label>
+                    <select class="form-control">
+                        <option value="">Select</option>
+                        <option value="SD">SD</option>
+                        <option value="SLTP">SLTP</option>
+                        <option value="SLTA">SLTA</option>
+                        <option value="S1">S1</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row mt-30">
+                <div class="col-12">
+                    <label class="form-label">
+                        Agama
+                    </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <input id="islam" name="agama" type="radio" value="Islam" class="" checked>
+                    <label class="form-label" for="islam" style="background-color:#9BA9C8; padding:2px; border-radius: 10px;">Islam</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <input id="kristen" name="agama" type="radio" value="Islam" class="">
+                    <label class="form-label" for="kristen">Kristen</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <input id="katolik" name="agama" type="radio" value="Islam" class="">
+                    <label class="form-label" for="katolik">Katolik</label>
+                </div>
+            </div>
+
+
+            <div class="row mt-30">
+                <div class="col-12">
+                    <label class="form-label">
+                        Hobi
+                    </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <input id="renang" name="hobi" type="checkbox" value="Renang" class="">
+                    <label class="form-label" for="renang">Renang</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <input id="mancing" name="hobi" type="checkbox" value="mancing" class="">
+                    <label class="form-label" for="mancing">Mancing</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <input id="game" name="hobi" type="checkbox" value="game" class="">
+                    <label class="form-label" for="game">Game</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <input id="gibah" name="hobi" type="checkbox" value="gibah" class="">
+                    <label class="form-label" for="gibah">Gibah</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <input id="programming" name="hobi" type="checkbox" value="programming" class="">
+                    <label class="form-label" for="programming">Programming</label>
+                </div>
+            </div>
+
+            <div class="row mt-30">
+                <div class="col-6">
+                    <button class="btn btn-primary" type="submit">Submit</button>
+                    <button class="btn btn-secondary" type="submit">Edit label</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

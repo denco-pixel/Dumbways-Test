@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <title>No. 2 - Dumbways test</title>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <style>
+        .page {
+            margin-top: 20px;
+            padding: 24px;
+        }
+
+        .mb-30 {
+            margin-bottom: 30px;
+        }
+
+        .mt-30 {
+            margin-top: 30px;
+        }
+
+        select {
+            max-width: 250px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <div class="container">
+            <form method="POST">
+                <div class="row mb-30">
+                    <div class="col-6">
+                        <label class="form-label">
+                            Username
+                        </label>
+                        <input type="text" class="form-control" name="username" value="" maxlength="8"  pattern="[a-z{8}" title="Invalid" required />
+                    </div>
+                </div>
+
+                <div class="row mb-30">
+                    <div class="col-6">
+                        <label class="form-label">
+                            Email
+                        </label>
+                        <input type="email" class="form-control" name="namalengkap" value="" required />
+                    </div>
+                </div>
+
+
+                <div class="row mt-30">
+                    <div class="col-6">
+                        <button class="btn btn-primary" type="submit">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
